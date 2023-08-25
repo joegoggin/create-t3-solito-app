@@ -1,0 +1,17 @@
+
+Usage: create-t3-solito-app [options]
+
+Options:
+  -n <name> : Specify the name of the app to create. This will also be the name of the project's root directory.
+
+  -p <path> : (Optional) Specify the path to the directory where the project will be created. A directory with the specified project name will be created within this directory.
+
+Defaults:
+  -p : ~/Projects
+
+Examples:
+  1. create-t3-solito-app -n your-project-name
+     This command will create a project located at ~/Projects/your-project-name.
+
+  2. create-t3-solito-app -n your-project-name -p /home/user/myDir
+     This command will create a project located at /home/user/myDir/your-project-name.
